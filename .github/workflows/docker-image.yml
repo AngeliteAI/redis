@@ -43,7 +43,6 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
-          script_stop: true
           script: |
             # Pull the latest image
             docker pull angeliteai/redis:latest
