@@ -1,6 +1,6 @@
 FROM redis:7-alpine
 
-# Create directory for Redis data update
+# Create directory for Redis data update deez
 RUN mkdir -p /data
 
 # Copy the Redis configuration file
